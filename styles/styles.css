@@ -9,7 +9,7 @@ header,
 main,
 footer {
   margin: 1.25rem auto;
-  max-width: 760px;
+  max-width: 700px;
 }
 
 header {
@@ -18,7 +18,7 @@ header {
   padding: 1.5rem;
   margin-bottom: 50px;
   border-radius: 10px;
-  height: 100px;
+  height: 150px;
   display: flex;
   justify-content: space-around;
   box-shadow: 0px 10px 23px 6px rgba(0, 0, 0, 0.71);
@@ -29,10 +29,12 @@ header {
 
 img {
   border-radius: 8px;
+  height: 150px;
 }
 
 h1 {
   margin-right: 100px;
+  margin-top: 50px;
 }
 
 h2 {
@@ -63,4 +65,9 @@ footer {
   text-align: center;
   text-shadow: none;
   font-size: medium;
+}
+
+
+footer p:nth-last-of-type(1) {
+    color: yellow;
 }
