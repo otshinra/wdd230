@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Raleway:ital@1&family=Ysabeau:ital@1&display=swap');
+
+body {
+    width: 100%;
+    line-height: 1.2;
+    margin: auto;
+    font-family: "Ysabeau", "Raleway", sans-serif;
+}
+
+header, main, footer {
+    max-width: 900px;
+    margin: 1.25rem auto;
+}
+
+header {
+    background-color: skyblue;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 10px 23px 6px rgba(0, 0, 0, 0.71);
+    -webkit-box-shadow: 0px 10px 23px 6px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 0px 10px 23px 6px rgba(0, 0, 0, 0.71);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+section {
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+
+footer {
+    background-color: skyblue;
+    color: whitesmoke;
+    margin-top: 50px;
+    padding: 2rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;;
+    border-radius: 10px;
+    box-shadow: 0px -4px 37px 4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px -4px 37px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -4px 37px 4px rgba(0, 0, 0, 0.75);
+}
+
+.first {
+    grid-column: 1;
+    margin: 5px;
+}
+
+.second {
+    grid-column: 2;
+    margin: 5px;
+}
+
+.third {
+    grid-column: 3;
+    margin: 5px;
+}
+
+section p {
+    font-weight: bold;
+    text-align: center;
+}
+
+section h3 {
+    font-family: "Poppins", sans-serif;
+    background-color: darkgray;
+    background-size: cover;
+    color: white;
+    margin-top: 0px;
+    padding: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    font-size: 100%
+}
+
+footer p:nth-last-of-type(1) {
+    color: rgb(158, 158, 29);
+}
