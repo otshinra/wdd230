@@ -1,0 +1,44 @@
+@media only screen and (min-width: 50.5em) {
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(4, 1fr));
+    }
+
+    nav a:hover {
+        --d: 75;
+    }
+
+
+    main {
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+    .purpose {
+        grid-column: 1;
+        justify-content: center;
+    }
+
+    .corp {
+        grid-column: 2;
+        max-width: 400px;
+        max-height: 400px;
+        justify-content: center;
+    }
+
+    footer {
+        box-shadow: 0px -6px 48px 1px rgba(0, 0, 0, 0.87);
+        -webkit-box-shadow: 0px -6px 48px 1px rgba(0, 0, 0, 0.87);
+        -moz-box-shadow: 0px -6px 48px 1px rgba(0, 0, 0, 0.87);
+    }
+
+    footer p {
+        flex-direction: column;
+    }
+
+    footer {
+        margin-top: 89px;
+    }
+
+
+}

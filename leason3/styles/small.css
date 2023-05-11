@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Manrope:wght@600&family=Mulish:ital@1&display=swap');
+
+body {
+    /* width: 100%; */
+    font-size: 18px;
+    line-height: 1.2;
+    /* margin: auto; */
+}
+
+header a img {
+    border-radius: 100px;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    margin-top: -18px;
+}
+
+img {
+    max-width: 100%;
+}
+
+#hero img {
+    justify-self: center;
+}
+
+header, main, footer {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    font-family: "Manrope", sans-serif;
+}
+
+header, footer {
+    background-color: #616062;
+    color: whitesmoke;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: .75rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+nav {
+    background-color: #2D3660;
+    margin: 0 auto;
+    margin-top: -18px;
+    max-width: 900px;
+    box-shadow: 0px 0px 48px 1px rgba(0,0,0,0.87);
+-webkit-box-shadow: 0px 0px 48px 1px rgba(0,0,0,0.87);
+-moz-box-shadow: 0px 0px 48px 1px rgba(0,0,0,0.87);
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    font-family: "Karla", sans-serif;
+    text-align: center;
+    padding: .75rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+	background: linear-gradient(90deg, transparent, yellow, transparent) bottom /
+		var(--d, 0) 3px no-repeat;
+	transition: 0.5s;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.9rem;
+    margin: 50px;
+}
+
+footer p {
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p, section h2 {
+    font-family: "Mulish",sans-serif;
+    font-size: .8rem;
+}
+
+section p {
+    text-align: center;
+}
+
+section h2 {
+    text-align: center;
+}
+
+.corp {
+    justify-self: center;
+}
+
+.purpose {
+    margin: 1rem;
+	padding: 1rem;
+}
+
+nav ul li a:hover {
+    color: #d32d36;
+}
+
+footer p a {
+    background-color: #eee;
+    color: #c85258;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer p a:hover {
+    background-color: #c85258;
+    color: #eee;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 37.5em) {
+    div img {
+        display: none;
+        margin: 1rem;
+    }
+
+    section img {
+        max-zoom: 60px;
+    }
+    
+}

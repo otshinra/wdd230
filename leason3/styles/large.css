@@ -1,0 +1,25 @@
+@media only screen and (min-width: 60em) {
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(190px, 1fr));
+       }
+       
+    
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+
+    .purpose {
+        grid-column: 1;
+    }
+
+    .corp {
+        grid-column: 2;
+        max-width: 400px;
+        max-height: 400px;
+        justify-content: center;
+    }
+
+}
