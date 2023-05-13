@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Manrope:wght@600&family=Mulish:ital@1&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     /* width: 100%; */
     font-size: 18px;
@@ -11,10 +16,14 @@ header a img {
     border-radius: 100px;
 }
 
+.logo {
+    width: 100px;
+}
+
 #hero {
     display: flex;
     justify-content: center;
-    margin-top: -18px;
+    /* margin-top: -18px; */
 }
 
 img {
@@ -23,9 +32,12 @@ img {
 
 #hero img {
     justify-self: center;
+    width: 800px;
 }
 
-header, main, footer {
+header,
+main,
+footer {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -34,29 +46,27 @@ header {
     font-family: "Manrope", sans-serif;
 }
 
-header, footer {
+header,
+footer {
     background-color: #616062;
     color: whitesmoke;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    padding: .75rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 h1 {
     font-size: 2rem;
+    text-align: center;
 }
 
 nav {
     background-color: #2D3660;
+    align-content: center;
     margin: 0 auto;
-    margin-top: -18px;
+    /* margin-top: -18px; */
     max-width: 900px;
-    box-shadow: 0px 0px 48px 1px rgba(0,0,0,0.87);
--webkit-box-shadow: 0px 0px 48px 1px rgba(0,0,0,0.87);
--moz-box-shadow: 0px 0px 48px 1px rgba(0,0,0,0.87);
+    box-shadow: 0px 0px 48px 1px rgba(0, 0, 0, 0.87);
+    -webkit-box-shadow: 0px 0px 48px 1px rgba(0, 0, 0, 0.87);
+    -moz-box-shadow: 0px 0px 48px 1px rgba(0, 0, 0, 0.87);
 }
 
 nav ul {
@@ -69,52 +79,62 @@ nav ul li a {
     color: white;
     font-family: "Karla", sans-serif;
     text-align: center;
-    padding: .75rem;
+    padding: 0.75rem;
+    /* justify-content: center; */
     text-decoration: none;
-    font-size: 1.2rem;
-	background: linear-gradient(90deg, transparent, yellow, transparent) bottom /
-		var(--d, 0) 3px no-repeat;
-	transition: 0.5s;
+    font-size: 0.95rem;
+    background: linear-gradient(90deg, transparent, #D32D36, transparent) bottom / var(--d, 0) 3px no-repeat;
+    transition: 0.5s;
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr;
     font-size: 0.9rem;
+}
+
+main section {
     margin: 50px;
 }
 
-footer p {
-    padding: .5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-p, section h2 {
-    font-family: "Mulish",sans-serif;
-    font-size: .8rem;
+p,
+section h2 {
+    font-family: "Mulish", sans-serif;
 }
 
 section p {
     text-align: center;
+    padding-bottom: 7px;
+
 }
 
 section h2 {
     text-align: center;
+    padding: 7px;
+    color: #d32d36;
 }
 
 .corp {
     justify-self: center;
 }
 
+.corp img {
+    border: 5px #616062 solid;
+}
+
 .purpose {
     margin: 1rem;
-	padding: 1rem;
+    padding: 1rem;
 }
 
 nav ul li a:hover {
     color: #d32d36;
+}
+
+li {
+    font-family: "Mulish", sans-serif;
+    padding-bottom: 7px;
 }
 
 footer p a {
@@ -130,6 +150,39 @@ footer p a:hover {
     transition: 0.5s;
 }
 
+.discover-page {
+    margin: 50px;
+}
+
+
+.description {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+}
+
+.first-p {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+}
+
+.second-p {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+}
+
+.scenarios {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+}
+
 @media only screen and (max-width: 37.5em) {
     div img {
         display: none;
@@ -139,5 +192,28 @@ footer p a:hover {
     section img {
         max-zoom: 60px;
     }
-    
+
+    p,
+    section h2 {
+        font-size: .8rem;
+    }
+
+    header,
+    footer {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        padding: .75rem;
+        font-size: 0.8rem;
+    }
+
+    footer p {
+        padding: .5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
 }
