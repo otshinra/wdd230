@@ -21,6 +21,12 @@
         font-size: 1.5rem;
     }
 
+    .discover-page {
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
     .purpose {
         grid-column: 1;
         text-align: center;

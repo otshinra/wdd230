@@ -23,7 +23,6 @@ header a img {
 #hero {
     display: flex;
     justify-content: center;
-    /* margin-top: -18px; */
 }
 
 img {
@@ -62,7 +61,6 @@ nav {
     background-color: #2D3660;
     align-content: center;
     margin: 0 auto;
-    /* margin-top: -18px; */
     max-width: 900px;
     box-shadow: 0px 0px 48px 1px rgba(0, 0, 0, 0.87);
     -webkit-box-shadow: 0px 0px 48px 1px rgba(0, 0, 0, 0.87);
@@ -80,7 +78,6 @@ nav ul li a {
     font-family: "Karla", sans-serif;
     text-align: center;
     padding: 0.75rem;
-    /* justify-content: center; */
     text-decoration: none;
     font-size: 0.95rem;
     background: linear-gradient(90deg, transparent, #D32D36, transparent) bottom / var(--d, 0) 3px no-repeat;
@@ -91,6 +88,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     font-size: 0.9rem;
+    justify-content: center;
 }
 
 main section {
@@ -149,11 +147,7 @@ footer p a:hover {
     color: #eee;
     transition: 0.5s;
 }
-
-.discover-page {
-    margin: 50px;
-}
-
+/* Discover Page */
 
 .description {
     margin: 1rem;

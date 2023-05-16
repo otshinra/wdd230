@@ -55,43 +55,6 @@
         border-radius: 5px;
     }
 
-    .description {
-        border-radius: 5px;
-        margin: 50px;
-        box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
-        -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
-        -moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
-    }
-
-    .first-p {
-        border-radius: 5px;
-        margin: 50px;
-        box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
-        -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
-        -moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
-    }
-
-    .second-p {
-        border-radius: 5px;
-        margin: 50px;
-        box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
-        -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
-        -moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
-    }
-
-    .scenarios {
-        border-radius: 5px;
-        margin: 50px;
-        box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
-        -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
-        -moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
-    }
-
-    .personas {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
     footer p {
         flex-direction: row;
     }
@@ -102,6 +65,45 @@
 
     main section {
         margin: 50px;
+    }
+
+    /* Discover Page */
+
+    .description {
+        border-radius: 5px;
+        /* margin: 50px; */
+        box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
+        -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
+        -moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
+    }
+
+    .first-p {
+        border-radius: 5px;
+        /* margin: 50px; */
+        box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
+        -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
+        -moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
+    }
+
+    .second-p {
+        border-radius: 5px;
+        /* margin: 50px; */
+        box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
+        -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
+        -moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
+    }
+
+    .scenarios {
+        border-radius: 5px;
+        /* margin: 50px; */
+        box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
+        -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
+        -moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.83);
+    }
+
+    .personas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
 
